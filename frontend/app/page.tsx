@@ -52,7 +52,7 @@ export default async function HomePage() {
           </span>{" "}
           international matches, simulated{" "}
           <span className="font-mono text-sm text-accent">{meta.n_simulations.toLocaleString()}</span>{" "}
-          times. No vibes, no narrative. Just goals as Poisson processes and a lot of compute.
+          times.
         </p>
         <div className="mt-8 grid grid-cols-2 gap-4 border-t border-bone/10 pt-6 md:grid-cols-4">
           <Meta label="Model" value="Dixon-Coles" />
