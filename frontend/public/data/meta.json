@@ -1,0 +1,24 @@
+{
+  "generated_at": "2026-05-27T11:13:28.806766Z",
+  "reference_date": "2026-05-27",
+  "model": "dixon-coles + elo calibration",
+  "xi": 0.2,
+  "history_years": 8.0,
+  "n_simulations": 20000,
+  "n_matches_trained_on": 49215,
+  "converged": true,
+  "calibration_k": 1.0,
+  "calibration": {
+    "anchor": "World Football Elo 2026-05-28",
+    "model_weight": 0.4,
+    "anchor_weight": 0.6,
+    "host_bonus_overall": 0.15,
+    "fixes": [
+      "corrected CONMEBOL over-rating / UEFA under-rating via Elo anchor",
+      "added host advantage for USA/Mexico/Canada",
+      "regenerated all 72 group score matrices",
+      "re-simulated 48-team bracket"
+    ]
+  },
+  "generated_at_v2": "recalibrated"
+}

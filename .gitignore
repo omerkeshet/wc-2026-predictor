@@ -1,0 +1,17 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+.DS_Store
+
+# Frontend
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/next-env.d.ts
+
+# Keep _quota.json so we can track usage across runs.
+# Drop the cached responses — they regenerate cheaply on next run.
+.cache/api_football/*.json
+!.cache/api_football/_quota.json

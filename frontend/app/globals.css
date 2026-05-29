@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,600;9..144,800&family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap");
+
+:root {
+  --grid-line: rgba(212, 255, 58, 0.08);
+}
+
+html, body {
+  background: #0a0a0a;
+  color: #fafaf7;
+  font-family: "IBM Plex Sans", ui-sans-serif, system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  background-image:
+    linear-gradient(to right, var(--grid-line) 1px, transparent 1px),
+    linear-gradient(to bottom, var(--grid-line) 1px, transparent 1px);
+  background-size: 64px 64px;
+}
+
+::selection {
+  background: #d4ff3a;
+  color: #0a0a0a;
+}
+
+/* Custom scrollbar — subtle */
+::-webkit-scrollbar { width: 10px; height: 10px; }
+::-webkit-scrollbar-track { background: #0a0a0a; }
+::-webkit-scrollbar-thumb { background: #2a2a2a; border-radius: 0; }
+::-webkit-scrollbar-thumb:hover { background: #3a3a3a; }
+
+/* Heatmap cell gradient utility — used in ScoreMatrix */
+.heatmap-cell {
+  transition: transform 120ms ease, outline-color 120ms ease;
+}
+.heatmap-cell:hover {
+  transform: scale(1.06);
+  outline: 1px solid #d4ff3a;
+  outline-offset: -1px;
+  z-index: 10;
+  position: relative;
+}
