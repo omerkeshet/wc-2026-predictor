@@ -1,8 +1,9 @@
+/** @type {import('next').NextConfig} */
 const nextConfig = {
   output: "export",
   images: { unoptimized: true },
   trailingSlash: true,
-  basePath: "/wc-2026-predictor",  // ← use your actual repo name
+  basePath: process.env.NODE_ENV === "production" ? "/wc-2026-predictor" : "",
 };
 
 module.exports = nextConfig;
