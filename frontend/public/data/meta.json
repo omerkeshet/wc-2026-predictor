@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-05-27T11:13:28.806766Z",
-  "reference_date": "2026-05-27",
+  "generated_at": "2026-06-01T11:13:28.806766Z",
+  "reference_date": "2026-06-01",
   "model": "dixon-coles + elo calibration",
   "xi": 0.2,
   "history_years": 8.0,
