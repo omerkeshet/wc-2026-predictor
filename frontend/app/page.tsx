@@ -52,7 +52,7 @@ export default async function HomePage() {
           </span>{" "}
           international matches, simulated{" "}
           <span className="font-mono text-sm text-accent">{meta.n_simulations.toLocaleString()}</span>{" "}
-          times.
+          times. No vibes, no narrative. Just goals as Poisson processes and a lot of compute.
         </p>
         <div className="mt-8 grid grid-cols-2 gap-4 border-t border-bone/10 pt-6 md:grid-cols-4">
           <Meta label="Model" value="Dixon-Coles" />
@@ -94,12 +94,18 @@ export default async function HomePage() {
             <MatchCard key={`${m.home}-${m.away}-${i}`} m={m} />
           ))}
         </div>
-        <div className="mt-8 text-center">
+        <div className="mt-8 flex justify-center gap-4">
           <Link
             href="/matches"
             className="inline-block border border-accent/40 bg-accent/5 px-6 py-3 font-mono text-xs uppercase tracking-wider text-accent hover:bg-accent hover:text-ink transition-colors"
           >
             View all {matches.matches.length} matches →
+          </Link>
+          <Link
+            href="/bracket"
+            className="inline-block border border-accent/40 bg-accent/5 px-6 py-3 font-mono text-xs uppercase tracking-wider text-accent hover:bg-accent hover:text-ink transition-colors"
+          >
+            See the full bracket →
           </Link>
         </div>
       </section>
