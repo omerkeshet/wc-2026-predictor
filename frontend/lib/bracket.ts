@@ -28,7 +28,7 @@ export type BracketTeam = {
 };
 
 export type BracketMatch = {
-  round: "R32" | "R16" | "QF" | "SF" | "F" | "3P";
+  round: "R32" | "R16" | "QF" | "SF" | "F";
   slot: number; // 0-indexed position within the round
   teamA: BracketTeam;
   teamB: BracketTeam;
@@ -45,10 +45,8 @@ export type Bracket = {
     QF: BracketMatch[];
     SF: BracketMatch[];
     F: BracketMatch[];
-    "3P": BracketMatch[]; // third-place playoff (1 match: SF losers)
   };
   champion: BracketTeam;
-  thirdPlace: BracketTeam;
 };
 
 // Real 2026 R32 pairings, encoded as the (group, finish) of each side.
@@ -156,15 +154,9 @@ export function buildBracket(
 
   // Third-place playoff: the two losing semifinalists meet.
   // For each SF match, the loser is whichever team isn't the winner.
-  const sfLosers = sf.map((m) =>
-    m.winner.name === m.teamA.name ? m.teamB : m.teamA,
-  );
-  const thirdPlaceMatch = buildMatch("3P", 0, sfLosers[0], sfLosers[1], ratings);
-
   return {
-    rounds: { R32: r32, R16: r16, QF: qf, SF: sf, F: f, "3P": [thirdPlaceMatch] },
+    rounds: { R32: r32, R16: r16, QF: qf, SF: sf, F: f },
     champion: f[0].winner,
-    thirdPlace: thirdPlaceMatch.winner,
   };
 }
 
