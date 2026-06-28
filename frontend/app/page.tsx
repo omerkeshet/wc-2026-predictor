@@ -94,25 +94,25 @@ export default async function HomePage() {
             <MatchCard key={`${m.home}-${m.away}-${i}`} m={m} />
           ))}
         </div>
-        <div className="mt-8 flex justify-center gap-4">
+        <div className="mt-8 flex flex-wrap justify-center gap-3">
           <Link
             href="/matches"
             className="inline-block border border-accent/40 bg-accent/5 px-6 py-3 font-mono text-xs uppercase tracking-wider text-accent hover:bg-accent hover:text-ink transition-colors"
           >
-            View all {matches.matches.length} matches →
-          </Link>
-          <Link
-            href="/bracket"
-            className="inline-block border border-accent/40 bg-accent/5 px-6 py-3 font-mono text-xs uppercase tracking-wider text-accent hover:bg-accent hover:text-ink transition-colors"
-          >
-            See the full bracket →
+            Group stage matches →
           </Link>
           <Link
             href="/round-of-32"
             className="inline-block border border-accent/40 bg-accent/5 px-6 py-3 font-mono text-xs uppercase tracking-wider text-accent hover:bg-accent hover:text-ink transition-colors"
           >
             Round of 32 →
-        </Link>
+          </Link>
+          <Link
+            href="/bracket"
+            className="inline-block border border-accent/40 bg-accent/5 px-6 py-3 font-mono text-xs uppercase tracking-wider text-accent hover:bg-accent hover:text-ink transition-colors"
+          >
+            Full bracket →
+          </Link>
         </div>
       </section>
 

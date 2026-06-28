@@ -1,1616 +1,1369 @@
 {
-  "home_advantage": 0.23421195245219456,
-  "rho": -0.062195249938412134,
-  "reference_date": "2026-05-27",
-  "calibration": {
-    "method": "dixon-coles blended with World Football Elo",
-    "model_weight": 0.4,
-    "anchor_weight": 0.6,
-    "anchor_source": "World Football Elo (worldfootballrankings.com), 2026-05-28",
-    "host_bonus_overall": 0.15,
-    "hosts": [
-      "Canada",
-      "Mexico",
-      "United States"
-    ],
-    "note": "attack-defense identity from original model preserved; only overall level recalibrated; non-participants unchanged"
-  },
+  "home_advantage": 0.24943289402049587,
+  "rho": -0.05023163493131807,
+  "reference_date": "2026-06-28",
   "ratings": [
     {
-      "team": "Argentina",
-      "attack": 1.375279676245907,
-      "defense": 1.6073949042300886,
-      "overall": 2.9826745804759955,
-      "recalibrated": true
-    },
-    {
-      "team": "Spain",
-      "attack": 1.4874521597436792,
-      "defense": 1.1681298439794956,
-      "overall": 2.6555820037231745,
-      "recalibrated": true
-    },
-    {
-      "team": "Brazil",
-      "attack": 1.2635373820124072,
-      "defense": 1.3467455527792214,
-      "overall": 2.6102829347916288,
-      "recalibrated": true
-    },
-    {
-      "team": "France",
-      "attack": 1.3632693045570152,
-      "defense": 1.1929489592031506,
-      "overall": 2.556218263760166,
-      "recalibrated": true
-    },
-    {
-      "team": "England",
-      "attack": 1.241388020470358,
-      "defense": 1.2118304812643996,
-      "overall": 2.4532185017347574,
-      "recalibrated": true
-    },
-    {
-      "team": "Colombia",
-      "attack": 1.185087551959123,
-      "defense": 1.1537833856334097,
-      "overall": 2.3388709375925325,
-      "recalibrated": true
-    },
-    {
-      "team": "Portugal",
-      "attack": 1.2519938314722139,
-      "defense": 0.9827996177073617,
-      "overall": 2.2347934491795756,
-      "recalibrated": true
-    },
-    {
-      "team": "Uruguay",
-      "attack": 0.9217144152629864,
-      "defense": 1.2712541532368284,
-      "overall": 2.192968568499815,
-      "recalibrated": true
-    },
-    {
-      "team": "Netherlands",
-      "attack": 1.267995075546776,
-      "defense": 0.8899625447888672,
-      "overall": 2.157957620335643,
-      "recalibrated": true
-    },
-    {
-      "team": "Morocco",
-      "attack": 0.8603239276074234,
-      "defense": 1.2883593458341027,
-      "overall": 2.148683273441526,
-      "recalibrated": true
-    },
-    {
-      "team": "Mexico",
-      "attack": 0.9447796729073973,
-      "defense": 1.1172729918388753,
-      "overall": 2.0620526647462727,
-      "recalibrated": true
-    },
-    {
-      "team": "Belgium",
-      "attack": 1.1475722784636555,
-      "defense": 0.9062839748427872,
-      "overall": 2.0538562533064426,
-      "recalibrated": true
-    },
-    {
-      "team": "Germany",
-      "attack": 1.2560992619455118,
-      "defense": 0.7853385360226288,
-      "overall": 2.0414377979681406,
-      "recalibrated": true
-    },
-    {
-      "team": "United States",
-      "attack": 1.0508394590760772,
-      "defense": 0.93694025846112,
-      "overall": 1.9877797175371972,
-      "recalibrated": true
-    },
-    {
-      "team": "Japan",
-      "attack": 1.0142392932721171,
-      "defense": 0.9359961448382337,
-      "overall": 1.9502354381103508,
-      "recalibrated": true
-    },
-    {
-      "team": "Ecuador",
-      "attack": 0.7363526627737859,
-      "defense": 1.2075911325082869,
-      "overall": 1.9439437952820726,
-      "recalibrated": true
-    },
-    {
-      "team": "Croatia",
-      "attack": 1.05788092350581,
-      "defense": 0.8818533337609621,
-      "overall": 1.939734257266772,
-      "recalibrated": true
-    },
-    {
-      "team": "Venezuela",
-      "attack": 1.02381184523299,
-      "defense": 0.8592284644897832,
-      "overall": 1.8830403097227733,
-      "recalibrated": false
-    },
-    {
-      "team": "Senegal",
-      "attack": 0.8735237075617472,
-      "defense": 0.9654790976980758,
-      "overall": 1.839002805259823,
-      "recalibrated": true
-    },
-    {
-      "team": "Peru",
-      "attack": 0.7666431682381223,
-      "defense": 1.0663067595366713,
-      "overall": 1.8329499277747936,
-      "recalibrated": false
-    },
-    {
-      "team": "Chile",
-      "attack": 0.8782450473888374,
-      "defense": 0.9438021956950607,
-      "overall": 1.822047243083898,
-      "recalibrated": false
-    },
-    {
-      "team": "Switzerland",
-      "attack": 0.9960573726673616,
-      "defense": 0.7412794416428997,
-      "overall": 1.7373368143102614,
-      "recalibrated": true
-    },
-    {
-      "team": "Canada",
-      "attack": 0.8710237109171544,
-      "defense": 0.8444833744765344,
-      "overall": 1.7155070853936887,
-      "recalibrated": true
-    },
-    {
-      "team": "Iran",
-      "attack": 0.8885248943163586,
-      "defense": 0.773484373974978,
-      "overall": 1.6620092682913366,
-      "recalibrated": true
+      "team": "Italy",
+      "attack": 1.1141589026562841,
+      "defense": 1.0241186971286889,
+      "overall": 2.1382775997849732
     },
     {
       "team": "Denmark",
-      "attack": 0.8720837729045063,
-      "defense": 0.7865265557032537,
-      "overall": 1.65861032860776,
-      "recalibrated": false
-    },
-    {
-      "team": "Australia",
-      "attack": 0.7755543743435727,
-      "defense": 0.8673180486775826,
-      "overall": 1.642872423021155,
-      "recalibrated": true
-    },
-    {
-      "team": "Italy",
-      "attack": 0.8450253284607088,
-      "defense": 0.7308301453724451,
-      "overall": 1.5758554738331538,
-      "recalibrated": false
-    },
-    {
-      "team": "South Korea",
-      "attack": 0.8152357211312782,
-      "defense": 0.7536842170981953,
-      "overall": 1.5689199382294734,
-      "recalibrated": true
-    },
-    {
-      "team": "Paraguay",
-      "attack": 0.6611081616312923,
-      "defense": 0.8737442183864511,
-      "overall": 1.5348523800177434,
-      "recalibrated": true
-    },
-    {
-      "team": "Austria",
-      "attack": 0.8060848635827749,
-      "defense": 0.6883554926469906,
-      "overall": 1.4944403562297655,
-      "recalibrated": true
-    },
-    {
-      "team": "Norway",
-      "attack": 0.8830700465738974,
-      "defense": 0.5751517821069381,
-      "overall": 1.4582218286808355,
-      "recalibrated": true
-    },
-    {
-      "team": "Turkey",
-      "attack": 0.9169984617920003,
-      "defense": 0.5250267455174809,
-      "overall": 1.4420252073094812,
-      "recalibrated": true
-    },
-    {
-      "team": "Algeria",
-      "attack": 0.8104473040448775,
-      "defense": 0.624595103716735,
-      "overall": 1.4350424077616126,
-      "recalibrated": true
-    },
-    {
-      "team": "Russia",
-      "attack": 0.73596545672677,
-      "defense": 0.6388222510057979,
-      "overall": 1.374787707732568,
-      "recalibrated": false
-    },
-    {
-      "team": "Egypt",
-      "attack": 0.5467853881670703,
-      "defense": 0.7995224741373126,
-      "overall": 1.346307862304383,
-      "recalibrated": true
-    },
-    {
-      "team": "Bolivia",
-      "attack": 0.8382342435382015,
-      "defense": 0.45811689526014465,
-      "overall": 1.2963511387983462,
-      "recalibrated": false
-    },
-    {
-      "team": "Ivory Coast",
-      "attack": 0.536754148732405,
-      "defense": 0.7257027716981098,
-      "overall": 1.2624569204305147,
-      "recalibrated": true
-    },
-    {
-      "team": "Panama",
-      "attack": 0.7106354820370174,
-      "defense": 0.5225636700305891,
-      "overall": 1.2331991520676064,
-      "recalibrated": true
-    },
-    {
-      "team": "Nigeria",
-      "attack": 0.6376523467995886,
-      "defense": 0.5869256593752338,
-      "overall": 1.2245780061748224,
-      "recalibrated": false
-    },
-    {
-      "team": "Sweden",
-      "attack": 0.7629258539760246,
-      "defense": 0.4601489499012058,
-      "overall": 1.2230748038772306,
-      "recalibrated": true
-    },
-    {
-      "team": "Mali",
-      "attack": 0.36461464469331595,
-      "defense": 0.8402111203050866,
-      "overall": 1.2048257649984024,
-      "recalibrated": false
-    },
-    {
-      "team": "Serbia",
-      "attack": 0.6381433120262839,
-      "defense": 0.5600198043662803,
-      "overall": 1.1981631163925641,
-      "recalibrated": false
+      "attack": 1.0876732890818384,
+      "defense": 1.0469737408073367,
+      "overall": 2.134647029889175
     },
     {
       "team": "Greece",
-      "attack": 0.5127082580118578,
-      "defense": 0.6825324674373747,
-      "overall": 1.1952407254492325,
-      "recalibrated": false
+      "attack": 0.8160555604531077,
+      "defense": 0.9154834693896643,
+      "overall": 1.731539029842772
     },
     {
-      "team": "Jersey",
-      "attack": 0.8651921940154856,
-      "defense": 0.29109144160741074,
-      "overall": 1.1562836356228963,
-      "recalibrated": false
+      "team": "Argentina",
+      "attack": 0.8069188812068556,
+      "defense": 0.8815889143530299,
+      "overall": 1.6885077955598855
     },
     {
-      "team": "Uzbekistan",
-      "attack": 0.4415000406870394,
-      "defense": 0.713243226370939,
-      "overall": 1.1547432670579783,
-      "recalibrated": true
+      "team": "Spain",
+      "attack": 0.8735850377844624,
+      "defense": 0.794579282937809,
+      "overall": 1.6681643207222714
     },
     {
-      "team": "Tunisia",
-      "attack": 0.41213949372499437,
-      "defense": 0.7399485127910038,
-      "overall": 1.1520880065159982,
-      "recalibrated": true
+      "team": "Russia",
+      "attack": 0.7856868194058708,
+      "defense": 0.8476805559783267,
+      "overall": 1.6333673753841975
     },
     {
-      "team": "Isle of Man",
-      "attack": 1.141450415158257,
-      "defense": 0.009591428195640718,
-      "overall": 1.1510418433538976,
-      "recalibrated": false
-    },
-    {
-      "team": "Poland",
-      "attack": 0.6645338714651274,
-      "defense": 0.44184396127285375,
-      "overall": 1.1063778327379812,
-      "recalibrated": false
-    },
-    {
-      "team": "Czech Republic",
-      "attack": 0.6279765808214786,
-      "defense": 0.4682470085934204,
-      "overall": 1.0962235894148988,
-      "recalibrated": true
-    },
-    {
-      "team": "Scotland",
-      "attack": 0.5719989264419135,
-      "defense": 0.5173837471780103,
-      "overall": 1.089382673619924,
-      "recalibrated": true
-    },
-    {
-      "team": "Costa Rica",
-      "attack": 0.5695308970027126,
-      "defense": 0.4897462603501502,
-      "overall": 1.0592771573528628,
-      "recalibrated": false
+      "team": "Serbia",
+      "attack": 0.8664539029429033,
+      "defense": 0.7391779647691127,
+      "overall": 1.6056318677120158
     },
     {
       "team": "Ukraine",
-      "attack": 0.6382347928803922,
-      "defense": 0.41831360121575445,
-      "overall": 1.0565483940961466,
-      "recalibrated": false
+      "attack": 0.9248868467484787,
+      "defense": 0.6622920676036624,
+      "overall": 1.587178914352141
     },
     {
-      "team": "DR Congo",
-      "attack": 0.32173430970741873,
-      "defense": 0.6967796918159227,
-      "overall": 1.0185140015233414,
-      "recalibrated": true
+      "team": "Poland",
+      "attack": 0.8939038466929888,
+      "defense": 0.6626679200294836,
+      "overall": 1.5565717667224725
     },
     {
-      "team": "Cameroon",
-      "attack": 0.38061041728208267,
-      "defense": 0.613142357070196,
-      "overall": 0.9937527743522787,
-      "recalibrated": false
-    },
-    {
-      "team": "United Arab Emirates",
-      "attack": 0.4883990685809359,
-      "defense": 0.4537211817993128,
-      "overall": 0.9421202503802487,
-      "recalibrated": false
-    },
-    {
-      "team": "Saudi Arabia",
-      "attack": 0.3253096864280276,
-      "defense": 0.61460392596164,
-      "overall": 0.9399136123896676,
-      "recalibrated": true
-    },
-    {
-      "team": "Wales",
-      "attack": 0.44021852363214614,
-      "defense": 0.4938648379386795,
-      "overall": 0.9340833615708257,
-      "recalibrated": false
-    },
-    {
-      "team": "Ghana",
-      "attack": 0.49109902693454466,
-      "defense": 0.4347490203974114,
-      "overall": 0.9258480473319561,
-      "recalibrated": true
-    },
-    {
-      "team": "Slovenia",
-      "attack": 0.2691424482112061,
-      "defense": 0.6424130630070812,
-      "overall": 0.9115555112182874,
-      "recalibrated": false
-    },
-    {
-      "team": "Jordan",
-      "attack": 0.551539661658494,
-      "defense": 0.34624078680003734,
-      "overall": 0.8977804484585313,
-      "recalibrated": true
+      "team": "France",
+      "attack": 0.8199626722771483,
+      "defense": 0.7218306655354741,
+      "overall": 1.5417933378126225
     },
     {
       "team": "Hungary",
-      "attack": 0.4173573129954821,
-      "defense": 0.46286850472373403,
-      "overall": 0.8802258177192162,
-      "recalibrated": false
+      "attack": 0.743998338387884,
+      "defense": 0.7239241087979571,
+      "overall": 1.467922447185841
     },
     {
-      "team": "Qatar",
-      "attack": 0.6271625411048898,
-      "defense": 0.25197801740516884,
-      "overall": 0.8791405585100587,
-      "recalibrated": true
+      "team": "England",
+      "attack": 0.719516935867702,
+      "defense": 0.7295649720053151,
+      "overall": 1.4490819078730173
+    },
+    {
+      "team": "Venezuela",
+      "attack": 0.7802607645248609,
+      "defense": 0.6369194558860379,
+      "overall": 1.417180220410899
+    },
+    {
+      "team": "Slovenia",
+      "attack": 0.5220836420983059,
+      "defense": 0.8907096280997266,
+      "overall": 1.4127932701980326
+    },
+    {
+      "team": "Nigeria",
+      "attack": 0.7687163085676334,
+      "defense": 0.6432520868525995,
+      "overall": 1.411968395420233
+    },
+    {
+      "team": "Wales",
+      "attack": 0.6939604451830815,
+      "defense": 0.7109803500894952,
+      "overall": 1.4049407952725768
+    },
+    {
+      "team": "Mali",
+      "attack": 0.48331130386421384,
+      "defense": 0.9036508079375293,
+      "overall": 1.386962111801743
     },
     {
       "team": "Romania",
-      "attack": 0.4051855677269611,
-      "defense": 0.4698878585593079,
-      "overall": 0.875073426286269,
-      "recalibrated": false
+      "attack": 0.6847685176466795,
+      "defense": 0.6961908001293797,
+      "overall": 1.380959317776059
     },
     {
-      "team": "Iraq",
-      "attack": 0.311508751704096,
-      "defense": 0.5574847858298397,
-      "overall": 0.8689935375339357,
-      "recalibrated": true
+      "team": "Brazil",
+      "attack": 0.7041043353955118,
+      "defense": 0.6722849867417974,
+      "overall": 1.3763893221373091
     },
     {
-      "team": "South Africa",
-      "attack": 0.3571245846265681,
-      "defense": 0.4891401414584644,
-      "overall": 0.8462647260850324,
-      "recalibrated": true
-    },
-    {
-      "team": "Ynys Môn",
-      "attack": 0.24007651057817303,
-      "defense": 0.5817405475041925,
-      "overall": 0.8218170580823655,
-      "recalibrated": false
+      "team": "Chile",
+      "attack": 0.6458077315130082,
+      "defense": 0.7156946387622813,
+      "overall": 1.3615023702752895
     },
     {
       "team": "Kosovo",
-      "attack": 0.419675409864688,
-      "defense": 0.39728146526925273,
-      "overall": 0.8169568751339407,
-      "recalibrated": false
+      "attack": 0.6870942633827056,
+      "defense": 0.654778219522708,
+      "overall": 1.3418724829054136
     },
     {
-      "team": "Burkina Faso",
-      "attack": 0.5159373976309009,
-      "defense": 0.2995376772502613,
-      "overall": 0.8154750748811621,
-      "recalibrated": false
+      "team": "Portugal",
+      "attack": 0.7160411841003897,
+      "defense": 0.6122601067260974,
+      "overall": 1.328301290826487
     },
     {
       "team": "Georgia",
-      "attack": 0.47940388402644757,
-      "defense": 0.3137605920988369,
-      "overall": 0.7931644761252845,
-      "recalibrated": false
+      "attack": 0.743573645202,
+      "defense": 0.5613450435959382,
+      "overall": 1.304918688797938
+    },
+    {
+      "team": "Jersey",
+      "attack": 0.9605063255877239,
+      "defense": 0.33261110776096453,
+      "overall": 1.2931174333486883
     },
     {
       "team": "Slovakia",
-      "attack": 0.34290409544758754,
-      "defense": 0.4235921285932278,
-      "overall": 0.7664962240408153,
-      "recalibrated": false
-    },
-    {
-      "team": "Bosnia and Herzegovina",
-      "attack": 0.40896491619095143,
-      "defense": 0.3420347633009905,
-      "overall": 0.7509996794919419,
-      "recalibrated": true
-    },
-    {
-      "team": "New Zealand",
-      "attack": 0.4317772806749324,
-      "defense": 0.3045436426116668,
-      "overall": 0.7363209232865991,
-      "recalibrated": true
+      "attack": 0.6423852026648816,
+      "defense": 0.6499716343303901,
+      "overall": 1.2923568369952716
     },
     {
       "team": "Republic of Ireland",
-      "attack": 0.2239274925117959,
-      "defense": 0.495661294792131,
-      "overall": 0.7195887873039268,
-      "recalibrated": false
+      "attack": 0.48940046635253587,
+      "defense": 0.8003006235864804,
+      "overall": 1.2897010899390162
     },
     {
       "team": "Israel",
-      "attack": 0.6765133290471957,
-      "defense": 0.02811250472185162,
-      "overall": 0.7046258337690474,
-      "recalibrated": false
+      "attack": 0.9748848475488224,
+      "defense": 0.31214379849476037,
+      "overall": 1.287028646043583
     },
     {
-      "team": "Cape Verde",
-      "attack": 0.2823890774979633,
-      "defense": 0.38032588185277855,
-      "overall": 0.6627149593507419,
-      "recalibrated": true
+      "team": "Colombia",
+      "attack": 0.6417247476808426,
+      "defense": 0.6069904245610486,
+      "overall": 1.2487151722418912
     },
     {
-      "team": "Jamaica",
-      "attack": 0.23256357377404374,
-      "defense": 0.42774793781408066,
-      "overall": 0.6603115115881244,
-      "recalibrated": false
+      "team": "Peru",
+      "attack": 0.4307440041140744,
+      "defense": 0.8051417918201456,
+      "overall": 1.23588579593422
     },
     {
-      "team": "Oman",
-      "attack": 0.155049334016679,
-      "defense": 0.5037285985056194,
-      "overall": 0.6587779325222983,
-      "recalibrated": false
+      "team": "Cameroon",
+      "attack": 0.5435759390962329,
+      "defense": 0.6878671975783537,
+      "overall": 1.2314431366745866
+    },
+    {
+      "team": "Netherlands",
+      "attack": 0.7099126467991738,
+      "defense": 0.5184722560735815,
+      "overall": 1.2283849028727554
     },
     {
       "team": "Albania",
-      "attack": 0.10157608027776246,
-      "defense": 0.5358979093987506,
-      "overall": 0.637473989676513,
-      "recalibrated": false
+      "attack": 0.33913006988515293,
+      "defense": 0.8116164455954747,
+      "overall": 1.1507465154806278
     },
     {
-      "team": "Guatemala",
-      "attack": 0.3508901909140979,
-      "defense": 0.254187559987352,
-      "overall": 0.6050777509014499,
-      "recalibrated": false
-    },
-    {
-      "team": "Honduras",
-      "attack": 0.2499782319351378,
-      "defense": 0.3517780373151287,
-      "overall": 0.6017562692502665,
-      "recalibrated": false
-    },
-    {
-      "team": "Iceland",
-      "attack": 0.472688176241545,
-      "defense": 0.08482109563088543,
-      "overall": 0.5575092718724305,
-      "recalibrated": false
-    },
-    {
-      "team": "Suriname",
-      "attack": 0.22744763719603445,
-      "defense": 0.32361701890294087,
-      "overall": 0.5510646560989754,
-      "recalibrated": false
-    },
-    {
-      "team": "Angola",
-      "attack": 0.08799251328014267,
-      "defense": 0.45252635820238607,
-      "overall": 0.5405188714825288,
-      "recalibrated": false
+      "team": "Germany",
+      "attack": 0.6919593269365024,
+      "defense": 0.43964767162214713,
+      "overall": 1.1316069985586497
     },
     {
       "team": "Northern Ireland",
-      "attack": 0.1610152333425845,
-      "defense": 0.37427821937340355,
-      "overall": 0.535293452715988,
-      "recalibrated": false
+      "attack": 0.4096913358360971,
+      "defense": 0.6643686357072801,
+      "overall": 1.0740599715433772
     },
     {
-      "team": "Guinea",
-      "attack": 0.26839821143183284,
-      "defense": 0.2647536287526389,
-      "overall": 0.5331518401844717,
-      "recalibrated": false
+      "team": "Ynys M\u00f4n",
+      "attack": 0.2875757905944995,
+      "defense": 0.7858862504044596,
+      "overall": 1.073462040998959
+    },
+    {
+      "team": "Belgium",
+      "attack": 0.5827656265760223,
+      "defense": 0.4831849893230962,
+      "overall": 1.0659506158991185
+    },
+    {
+      "team": "Iceland",
+      "attack": 0.7292374970996147,
+      "defense": 0.31919183105967386,
+      "overall": 1.0484293281592887
+    },
+    {
+      "team": "Mexico",
+      "attack": 0.49011644720069175,
+      "defense": 0.5470914350542762,
+      "overall": 1.037207882254968
+    },
+    {
+      "team": "Isle of Man",
+      "attack": 1.0398837246410475,
+      "defense": -0.00425537060742213,
+      "overall": 1.0356283540336253
+    },
+    {
+      "team": "Switzerland",
+      "attack": 0.5790423276069786,
+      "defense": 0.43701441918956696,
+      "overall": 1.0160567467965456
+    },
+    {
+      "team": "Morocco",
+      "attack": 0.4342343543041378,
+      "defense": 0.5671403185552486,
+      "overall": 1.0013746728593864
     },
     {
       "team": "Finland",
-      "attack": 0.2267219667571716,
-      "defense": 0.2980734219056838,
-      "overall": 0.5247953886628554,
-      "recalibrated": false
+      "attack": 0.467718328346101,
+      "defense": 0.5319234638800624,
+      "overall": 0.9996417922261633
     },
     {
-      "team": "Haiti",
-      "attack": 0.4348481564588675,
-      "defense": 0.08628865310629014,
-      "overall": 0.5211368095651576,
-      "recalibrated": true
+      "team": "Norway",
+      "attack": 0.609616593579999,
+      "defense": 0.38859127525187964,
+      "overall": 0.9982078688318786
     },
     {
-      "team": "Palestine",
-      "attack": 0.2628484761923541,
-      "defense": 0.23635989197899654,
-      "overall": 0.4992083681713506,
-      "recalibrated": false
-    },
-    {
-      "team": "Bahrain",
-      "attack": 0.2187352790372056,
-      "defense": 0.2724684882148613,
-      "overall": 0.49120376725206694,
-      "recalibrated": false
-    },
-    {
-      "team": "Curaçao",
-      "attack": 0.2531782474459454,
-      "defense": 0.2359584550250619,
-      "overall": 0.4891367024710073,
-      "recalibrated": true
+      "team": "Burkina Faso",
+      "attack": 0.6159178371325875,
+      "defense": 0.3687491777984965,
+      "overall": 0.984667014931084
     },
     {
       "team": "North Macedonia",
-      "attack": 0.25759647367299066,
-      "defense": 0.2023453390540248,
-      "overall": 0.45994181272701545,
-      "recalibrated": false
+      "attack": 0.5105025111659401,
+      "defense": 0.46574999046013593,
+      "overall": 0.9762525016260761
     },
     {
-      "team": "Syria",
-      "attack": 0.24864544101079464,
-      "defense": 0.18977843232980354,
-      "overall": 0.4384238733405982,
-      "recalibrated": false
+      "team": "Croatia",
+      "attack": 0.5496603088503198,
+      "defense": 0.4260977430437691,
+      "overall": 0.9757580518940889
     },
     {
-      "team": "North Korea",
-      "attack": 0.3205121237987434,
-      "defense": 0.07116160533047035,
-      "overall": 0.3916737291292137,
-      "recalibrated": false
+      "team": "Japan",
+      "attack": 0.4956901298259199,
+      "defense": 0.4686999892196458,
+      "overall": 0.9643901190455657
     },
     {
-      "team": "Gambia",
-      "attack": 0.45157559541748765,
-      "defense": -0.07579208761647441,
-      "overall": 0.3757835078010132,
-      "recalibrated": false
+      "team": "Ecuador",
+      "attack": 0.3843540490140992,
+      "defense": 0.5437014046753844,
+      "overall": 0.9280554536894836
     },
     {
-      "team": "Benin",
-      "attack": 0.18985173916653325,
-      "defense": 0.1820327794114707,
-      "overall": 0.371884518578004,
-      "recalibrated": false
+      "team": "Uruguay",
+      "attack": 0.4302505715680364,
+      "defense": 0.49347936387012165,
+      "overall": 0.9237299354381581
     },
     {
-      "team": "China PR",
-      "attack": 0.1753645667749052,
-      "defense": 0.19617787468143966,
-      "overall": 0.37154244145634485,
-      "recalibrated": false
+      "team": "Austria",
+      "attack": 0.45535479853711597,
+      "defense": 0.3496793451463162,
+      "overall": 0.8050341436834322
     },
     {
-      "team": "New Caledonia",
-      "attack": 0.2289993925171484,
-      "defense": 0.0919362615096329,
-      "overall": 0.3209356540267813,
-      "recalibrated": false
+      "team": "Angola",
+      "attack": 0.23911361261365238,
+      "defense": 0.547692073047704,
+      "overall": 0.7868056856613563
     },
     {
-      "team": "Gabon",
-      "attack": 0.36173211153015467,
-      "defense": -0.04141864385527893,
-      "overall": 0.32031346767487573,
-      "recalibrated": false
+      "team": "Bolivia",
+      "attack": 0.5780960320063474,
+      "defense": 0.2085250990179653,
+      "overall": 0.7866211310243127
     },
     {
-      "team": "Zambia",
-      "attack": 0.24321043639601825,
-      "defense": 0.061013439918118126,
-      "overall": 0.3042238763141364,
-      "recalibrated": false
+      "team": "Senegal",
+      "attack": 0.426579837453565,
+      "defense": 0.3526265875127055,
+      "overall": 0.7792064249662705
     },
     {
-      "team": "Guernsey",
-      "attack": -0.20643778393341455,
-      "defense": 0.4998834299848648,
-      "overall": 0.29344564605145024,
-      "recalibrated": false
+      "team": "Turkey",
+      "attack": 0.482419650814027,
+      "defense": 0.2851016555579154,
+      "overall": 0.7675213063719424
     },
     {
-      "team": "Thailand",
-      "attack": 0.18417555412175862,
-      "defense": 0.04888148082895195,
-      "overall": 0.23305703495071056,
-      "recalibrated": false
+      "team": "United States",
+      "attack": 0.43747255559991494,
+      "defense": 0.3298747165073209,
+      "overall": 0.7673472721072359
     },
     {
-      "team": "Uganda",
-      "attack": 0.0742693514886545,
-      "defense": 0.15864098693708434,
-      "overall": 0.23291033842573883,
-      "recalibrated": false
+      "team": "Costa Rica",
+      "attack": 0.4161961887521883,
+      "defense": 0.3459593808999262,
+      "overall": 0.7621555696521145
     },
     {
-      "team": "Libya",
-      "attack": 0.0846271170646244,
-      "defense": 0.14268483276418353,
-      "overall": 0.22731194982880792,
-      "recalibrated": false
+      "team": "Canada",
+      "attack": 0.39158698445303614,
+      "defense": 0.33572808921131436,
+      "overall": 0.7273150736643506
     },
     {
-      "team": "Kyrgyzstan",
-      "attack": 0.2672073291858774,
-      "defense": -0.061064673687644046,
-      "overall": 0.20614265549823338,
-      "recalibrated": false
+      "team": "Guinea",
+      "attack": 0.3224496916344852,
+      "defense": 0.3511036551464751,
+      "overall": 0.6735533467809603
     },
     {
-      "team": "Madagascar",
-      "attack": 0.2488202028882802,
-      "defense": -0.06643401314939097,
-      "overall": 0.1823861897388892,
-      "recalibrated": false
-    },
-    {
-      "team": "Niger",
-      "attack": 0.25287082417458256,
-      "defense": -0.08852454606080029,
-      "overall": 0.16434627811378227,
-      "recalibrated": false
+      "team": "Australia",
+      "attack": 0.2944267104128646,
+      "defense": 0.37680921171878357,
+      "overall": 0.6712359221316482
     },
     {
       "team": "Montenegro",
-      "attack": 0.057365352134836255,
-      "defense": 0.06361850364079333,
-      "overall": 0.12098385577562959,
-      "recalibrated": false
+      "attack": 0.3088593808740649,
+      "defense": 0.3338232577427322,
+      "overall": 0.6426826386167971
     },
     {
-      "team": "Trinidad and Tobago",
-      "attack": 0.15178071017670028,
-      "defense": -0.03415153841116689,
-      "overall": 0.11762917176553339,
-      "recalibrated": false
+      "team": "Paraguay",
+      "attack": 0.2761810966168696,
+      "defense": 0.36132957539086435,
+      "overall": 0.6375106720077339
     },
     {
-      "team": "Zimbabwe",
-      "attack": 0.01967387208952384,
-      "defense": 0.09460682650898766,
-      "overall": 0.1142806985985115,
-      "recalibrated": false
+      "team": "Sweden",
+      "attack": 0.4138296218830967,
+      "defense": 0.19532950927321607,
+      "overall": 0.6091591311563127
     },
     {
-      "team": "Kuwait",
-      "attack": 0.1507739781041467,
-      "defense": -0.03724885514224001,
-      "overall": 0.11352512296190669,
-      "recalibrated": false
+      "team": "United Arab Emirates",
+      "attack": 0.3334966176569847,
+      "defense": 0.2749420005054045,
+      "overall": 0.6084386181623892
     },
     {
-      "team": "Martinique",
-      "attack": 0.06373233623785515,
-      "defense": 0.04594772517073451,
-      "overall": 0.10968006140858966,
-      "recalibrated": false
+      "team": "Algeria",
+      "attack": 0.3806407628488274,
+      "defense": 0.2205581280686077,
+      "overall": 0.6011988909174351
     },
     {
-      "team": "Vietnam",
-      "attack": 0.07720096153411152,
-      "defense": 0.032394093527410614,
-      "overall": 0.10959505506152213,
-      "recalibrated": false
+      "team": "Ivory Coast",
+      "attack": 0.2570290765457276,
+      "defense": 0.32997282619780577,
+      "overall": 0.5870019027435334
     },
     {
-      "team": "Comoros",
-      "attack": 0.09376225093225664,
-      "defense": 0.0038199692041498944,
-      "overall": 0.09758222013640654,
-      "recalibrated": false
+      "team": "Scotland",
+      "attack": 0.2930766457445778,
+      "defense": 0.2526830707966965,
+      "overall": 0.5457597165412743
     },
     {
-      "team": "Rwanda",
-      "attack": -0.2608672059288378,
-      "defense": 0.3512353602645727,
-      "overall": 0.09036815433573492,
-      "recalibrated": false
+      "team": "Egypt",
+      "attack": 0.2295240711120943,
+      "defense": 0.313961821719655,
+      "overall": 0.5434858928317493
     },
     {
-      "team": "Tajikistan",
-      "attack": -0.062420839022443074,
-      "defense": 0.15020145620360922,
-      "overall": 0.08778061718116614,
-      "recalibrated": false
+      "team": "Iran",
+      "attack": 0.3009494465743087,
+      "defense": 0.24236254891929676,
+      "overall": 0.5433119954936054
     },
     {
-      "team": "El Salvador",
-      "attack": -0.19512251717887907,
-      "defense": 0.27852230853166804,
-      "overall": 0.08339979135278897,
-      "recalibrated": false
-    },
-    {
-      "team": "Togo",
-      "attack": -0.08113229347302345,
-      "defense": 0.15533072164403838,
-      "overall": 0.07419842817101494,
-      "recalibrated": false
-    },
-    {
-      "team": "Bulgaria",
-      "attack": 0.05846106110489313,
-      "defense": 0.012693987384659688,
-      "overall": 0.07115504848955281,
-      "recalibrated": false
-    },
-    {
-      "team": "Mozambique",
-      "attack": 0.17075771599318199,
-      "defense": -0.10994404364327291,
-      "overall": 0.06081367234990907,
-      "recalibrated": false
-    },
-    {
-      "team": "Dominican Republic",
-      "attack": 0.1362357366465703,
-      "defense": -0.07748543109652979,
-      "overall": 0.0587503055500405,
-      "recalibrated": false
-    },
-    {
-      "team": "Tanzania",
-      "attack": -0.22100995671287182,
-      "defense": 0.2712696441905124,
-      "overall": 0.05025968747764059,
-      "recalibrated": false
+      "team": "Gambia",
+      "attack": 0.5114347543353034,
+      "defense": 0.031192666203865363,
+      "overall": 0.5426274205391688
     },
     {
       "team": "Belarus",
-      "attack": 0.04108690462482821,
-      "defense": -0.014357371692417898,
-      "overall": 0.026729532932410312,
-      "recalibrated": false
+      "attack": 0.31111990523403754,
+      "defense": 0.2284805255166995,
+      "overall": 0.539600430750737
     },
     {
-      "team": "Equatorial Guinea",
-      "attack": -0.03691090748894624,
-      "defense": 0.054124787261551774,
-      "overall": 0.017213879772605536,
-      "recalibrated": false
+      "team": "Bulgaria",
+      "attack": 0.2811165543336011,
+      "defense": 0.23794083389842166,
+      "overall": 0.5190573882320227
     },
     {
-      "team": "Nicaragua",
-      "attack": -0.013563066403708775,
-      "defense": 0.030599839124164474,
-      "overall": 0.0170367727204557,
-      "recalibrated": false
+      "team": "Benin",
+      "attack": 0.2604369453807082,
+      "defense": 0.2576735141750881,
+      "overall": 0.5181104595557964
     },
     {
-      "team": "Tahiti",
-      "attack": -0.06964588892301657,
-      "defense": 0.08667246496385614,
-      "overall": 0.01702657604083957,
-      "recalibrated": false
+      "team": "Gabon",
+      "attack": 0.42920210628469163,
+      "defense": 0.05722124722647085,
+      "overall": 0.4864233535111625
     },
     {
-      "team": "Shetland",
-      "attack": 0.12398669066416598,
-      "defense": -0.1086613525682996,
-      "overall": 0.015325338095866378,
-      "recalibrated": false
+      "team": "Zambia",
+      "attack": 0.3278465138296904,
+      "defense": 0.15534938130777698,
+      "overall": 0.48319589513746736
     },
     {
-      "team": "Kenya",
-      "attack": 0.11063865572303483,
-      "defense": -0.09912336834885077,
-      "overall": 0.011515287374184058,
-      "recalibrated": false
+      "team": "South Korea",
+      "attack": 0.24783472137164234,
+      "defense": 0.19943911896709315,
+      "overall": 0.4472738403387355
     },
     {
-      "team": "Hitra",
-      "attack": 0.5213438752085006,
-      "defense": -0.5307923530857231,
-      "overall": -0.009448477877222583,
-      "recalibrated": false
+      "team": "Guernsey",
+      "attack": -0.2542020510757092,
+      "defense": 0.6839252933231139,
+      "overall": 0.4297232422474047
     },
     {
-      "team": "Lebanon",
-      "attack": -0.24627855814896624,
-      "defense": 0.22930285958698945,
-      "overall": -0.016975698561976782,
-      "recalibrated": false
+      "team": "DR Congo",
+      "attack": 0.15533229902263673,
+      "defense": 0.27209645034982566,
+      "overall": 0.4274287493724624
     },
     {
-      "team": "Sudan",
-      "attack": -0.15372193087115005,
-      "defense": 0.12427319290450824,
-      "overall": -0.02944873796664181,
-      "recalibrated": false
+      "team": "Czech Republic",
+      "attack": 0.26318944586798154,
+      "defense": 0.15309931908605368,
+      "overall": 0.4162887649540352
     },
     {
-      "team": "Orkney",
-      "attack": 0.040054304252096204,
-      "defense": -0.07315190775821714,
-      "overall": -0.03309760350612094,
-      "recalibrated": false
+      "team": "Uganda",
+      "attack": 0.15569048332247176,
+      "defense": 0.24860645940448256,
+      "overall": 0.4042969427269543
     },
     {
       "team": "Kazakhstan",
-      "attack": -0.011274055210205289,
-      "defense": -0.03233775104264154,
-      "overall": -0.04361180625284683,
-      "recalibrated": false
-    },
-    {
-      "team": "Sierra Leone",
-      "attack": 0.0029859819747112427,
-      "defense": -0.05862853616069588,
-      "overall": -0.05564255418598464,
-      "recalibrated": false
-    },
-    {
-      "team": "Indonesia",
-      "attack": 0.08714749660977182,
-      "defense": -0.1490099094972897,
-      "overall": -0.061862412887517884,
-      "recalibrated": false
+      "attack": 0.1970851278786292,
+      "defense": 0.20604933888720098,
+      "overall": 0.4031344667658302
     },
     {
       "team": "Luxembourg",
-      "attack": -0.13999361083581016,
-      "defense": 0.04722927230696563,
-      "overall": -0.09276433852884453,
-      "recalibrated": false
+      "attack": 0.06037622162888073,
+      "defense": 0.32976095031985236,
+      "overall": 0.3901371719487331
     },
     {
-      "team": "Guadeloupe",
-      "attack": -0.09105987509099085,
-      "defense": -0.00608107154625333,
-      "overall": -0.09714094663724418,
-      "recalibrated": false
+      "team": "Libya",
+      "attack": 0.15816815355117103,
+      "defense": 0.2270688454565494,
+      "overall": 0.38523699900772046
     },
     {
-      "team": "Mauritania",
-      "attack": -0.2459422034451051,
-      "defense": 0.14033772481533152,
-      "overall": -0.10560447862977357,
-      "recalibrated": false
+      "team": "Honduras",
+      "attack": 0.11714117102772008,
+      "defense": 0.24523866002112935,
+      "overall": 0.3623798310488494
     },
     {
-      "team": "Namibia",
-      "attack": -0.12033382778748214,
-      "defense": -0.005683342956520718,
-      "overall": -0.12601717074400287,
-      "recalibrated": false
+      "team": "Jamaica",
+      "attack": 0.09570576683480327,
+      "defense": 0.2496794148917056,
+      "overall": 0.34538518172650884
     },
     {
-      "team": "Malaysia",
-      "attack": 0.050559404944823284,
-      "defense": -0.17835422308210952,
-      "overall": -0.12779481813728624,
-      "recalibrated": false
-    },
-    {
-      "team": "Ethiopia",
-      "attack": -0.05347762288351482,
-      "defense": -0.0895335334404222,
-      "overall": -0.14301115632393702,
-      "recalibrated": false
-    },
-    {
-      "team": "Malawi",
-      "attack": -0.21742328909378458,
-      "defense": 0.06961694688386719,
-      "overall": -0.1478063422099174,
-      "recalibrated": false
-    },
-    {
-      "team": "Faroe Islands",
-      "attack": -0.16118713279995495,
-      "defense": 0.007376138478831664,
-      "overall": -0.15381099432112327,
-      "recalibrated": false
-    },
-    {
-      "team": "Burundi",
-      "attack": -0.10249087640202313,
-      "defense": -0.08085185834142129,
-      "overall": -0.18334273474344442,
-      "recalibrated": false
-    },
-    {
-      "team": "Central African Republic",
-      "attack": 0.12470512113700094,
-      "defense": -0.3257055157676156,
-      "overall": -0.20100039463061464,
-      "recalibrated": false
-    },
-    {
-      "team": "Botswana",
-      "attack": -0.18890871761304356,
-      "defense": -0.025295996458577878,
-      "overall": -0.21420471407162145,
-      "recalibrated": false
+      "team": "Oman",
+      "attack": 0.03328919763256848,
+      "defense": 0.3105976046749364,
+      "overall": 0.3438868023075049
     },
     {
       "team": "Armenia",
-      "attack": 0.07168254114219919,
-      "defense": -0.28614435267935945,
-      "overall": -0.21446181153716026,
-      "recalibrated": false
+      "attack": 0.34508350080571376,
+      "defense": -0.017683833428867535,
+      "overall": 0.3273996673768462
     },
     {
-      "team": "Azerbaijan",
-      "attack": -0.1030300391712309,
-      "defense": -0.12037856659516452,
-      "overall": -0.22340860576639543,
-      "recalibrated": false
+      "team": "Togo",
+      "attack": 0.05385274364822299,
+      "defense": 0.2648080488006216,
+      "overall": 0.3186607924488446
     },
     {
-      "team": "Liberia",
-      "attack": -0.15551242466886803,
-      "defense": -0.08239269786259933,
-      "overall": -0.23790512253146734,
-      "recalibrated": false
+      "team": "Faroe Islands",
+      "attack": 0.0264561200785642,
+      "defense": 0.2865960644520178,
+      "overall": 0.313052184530582
+    },
+    {
+      "team": "Madagascar",
+      "attack": 0.34648103520066104,
+      "defense": -0.03692950667646502,
+      "overall": 0.30955152852419604
+    },
+    {
+      "team": "Niger",
+      "attack": 0.2867773028555705,
+      "defense": 0.005915776748728072,
+      "overall": 0.2926930796042986
+    },
+    {
+      "team": "Rwanda",
+      "attack": -0.16730947678124694,
+      "defense": 0.43297365894255607,
+      "overall": 0.26566418216130916
+    },
+    {
+      "team": "Bahrain",
+      "attack": 0.08261768630629114,
+      "defense": 0.17453978354802863,
+      "overall": 0.25715746985431975
+    },
+    {
+      "team": "Comoros",
+      "attack": 0.16521799367797765,
+      "defense": 0.0907127912288787,
+      "overall": 0.25593078490685633
+    },
+    {
+      "team": "Mozambique",
+      "attack": 0.2682243834738308,
+      "defense": -0.02717915934911791,
+      "overall": 0.2410452241247129
+    },
+    {
+      "team": "Guatemala",
+      "attack": 0.21490790815159022,
+      "defense": 0.02543074522557172,
+      "overall": 0.24033865337716193
+    },
+    {
+      "team": "Zimbabwe",
+      "attack": 0.02435443594629226,
+      "defense": 0.19594389618409158,
+      "overall": 0.22029833213038386
     },
     {
       "team": "Estonia",
-      "attack": -0.11881444162298846,
-      "defense": -0.12916680715487622,
-      "overall": -0.24798124877786468,
-      "recalibrated": false
-    },
-    {
-      "team": "Gozo",
-      "attack": -0.33590627375157234,
-      "defense": 0.06204372330314267,
-      "overall": -0.27386255044842966,
-      "recalibrated": false
-    },
-    {
-      "team": "Latvia",
-      "attack": -0.19635285194766355,
-      "defense": -0.07938407861234098,
-      "overall": -0.27573693056000453,
-      "recalibrated": false
-    },
-    {
-      "team": "Guinea-Bissau",
-      "attack": -0.2825317356219284,
-      "defense": -0.009829872188670619,
-      "overall": -0.292361607810599,
-      "recalibrated": false
+      "attack": 0.07080626851668775,
+      "defense": 0.1491258688915978,
+      "overall": 0.21993213740828554
     },
     {
       "team": "Cyprus",
-      "attack": -0.09453011980227863,
-      "defense": -0.2135631869692539,
-      "overall": -0.3080933067715325,
-      "recalibrated": false
+      "attack": 0.14200310604493666,
+      "defense": 0.06659027702078144,
+      "overall": 0.2085933830657181
     },
     {
-      "team": "Turkmenistan",
-      "attack": -0.09850604871653008,
-      "defense": -0.21591068268507366,
-      "overall": -0.31441673140160376,
-      "recalibrated": false
+      "team": "Sierra Leone",
+      "attack": 0.15147187665967798,
+      "defense": 0.04628963631366593,
+      "overall": 0.1977615129733439
     },
     {
-      "team": "French Guiana",
-      "attack": -0.14786339308302893,
-      "defense": -0.17489889234987752,
-      "overall": -0.3227622854329064,
-      "recalibrated": false
+      "team": "Equatorial Guinea",
+      "attack": 0.01567881481671037,
+      "defense": 0.17711955538017618,
+      "overall": 0.19279837019688656
     },
     {
-      "team": "Lesotho",
-      "attack": -0.2869858986014253,
-      "defense": -0.051272457675423065,
-      "overall": -0.33825835627684836,
-      "recalibrated": false
+      "team": "Kenya",
+      "attack": 0.16343481854320357,
+      "defense": 0.015795121476916175,
+      "overall": 0.17922994002011974
     },
     {
-      "team": "Fiji",
-      "attack": 0.08483340136913914,
-      "defense": -0.4438088578476905,
-      "overall": -0.35897545647855134,
-      "recalibrated": false
+      "team": "Azerbaijan",
+      "attack": 0.024791573284418042,
+      "defense": 0.14428019323148022,
+      "overall": 0.16907176651589828
     },
     {
-      "team": "Guyana",
-      "attack": 0.08383748822739262,
-      "defense": -0.4573003852420603,
-      "overall": -0.37346289701466767,
-      "recalibrated": false
+      "team": "Latvia",
+      "attack": -0.01033226823965229,
+      "defense": 0.17376911869416134,
+      "overall": 0.16343685045450906
     },
     {
-      "team": "Cuba",
-      "attack": -0.16371203763299286,
-      "defense": -0.23381574873650723,
-      "overall": -0.3975277863695001,
-      "recalibrated": false
+      "team": "Bosnia and Herzegovina",
+      "attack": 0.11382713340990026,
+      "defense": 0.04479650586475534,
+      "overall": 0.15862363927465561
     },
     {
-      "team": "Yemen",
-      "attack": -0.09679612114487393,
-      "defense": -0.3423133284080609,
-      "overall": -0.43910944955293485,
-      "recalibrated": false
+      "team": "Syria",
+      "attack": 0.09216442355129055,
+      "defense": 0.0657965371122273,
+      "overall": 0.15796096066351784
+    },
+    {
+      "team": "Shetland",
+      "attack": 0.21790555134896114,
+      "defense": -0.06712839315394131,
+      "overall": 0.15077715819501983
+    },
+    {
+      "team": "Cape Verde",
+      "attack": 0.039029658258398006,
+      "defense": 0.09949651341483853,
+      "overall": 0.13852617167323655
+    },
+    {
+      "team": "Palestine",
+      "attack": 0.004731995058277965,
+      "defense": 0.12980177556186825,
+      "overall": 0.1345337706201462
+    },
+    {
+      "team": "Panama",
+      "attack": 0.09323761104521572,
+      "defense": 0.03552483562465299,
+      "overall": 0.1287624466698687
+    },
+    {
+      "team": "Tanzania",
+      "attack": -0.24490760139332926,
+      "defense": 0.3666333521077403,
+      "overall": 0.12172575071441102
+    },
+    {
+      "team": "China",
+      "attack": 0.00868258451907992,
+      "defense": 0.11010505503255612,
+      "overall": 0.11878763955163604
+    },
+    {
+      "team": "Ghana",
+      "attack": 0.0581948106109417,
+      "defense": 0.06017067527979543,
+      "overall": 0.11836548589073713
+    },
+    {
+      "team": "Suriname",
+      "attack": 0.008774904291958999,
+      "defense": 0.10284522347121987,
+      "overall": 0.11162012776317887
+    },
+    {
+      "team": "Sudan",
+      "attack": -0.12235169676747176,
+      "defense": 0.2338064090788827,
+      "overall": 0.11145471231141094
+    },
+    {
+      "team": "Uzbekistan",
+      "attack": 0.07347981589413898,
+      "defense": 0.03398952052771878,
+      "overall": 0.10746933642185776
+    },
+    {
+      "team": "Tunisia",
+      "attack": 0.04275453793124312,
+      "defense": 0.054615066024001915,
+      "overall": 0.09736960395524503
+    },
+    {
+      "team": "Jordan",
+      "attack": 0.10473653513419427,
+      "defense": -0.012069293286031582,
+      "overall": 0.09266724184816269
+    },
+    {
+      "team": "South Africa",
+      "attack": 0.01966921202692726,
+      "defense": 0.06067928438149085,
+      "overall": 0.08034849640841811
+    },
+    {
+      "team": "Namibia",
+      "attack": -0.04632477929039149,
+      "defense": 0.109139654033529,
+      "overall": 0.06281487474313752
+    },
+    {
+      "team": "Mauritania",
+      "attack": -0.19278299406991814,
+      "defense": 0.2438888182149362,
+      "overall": 0.05110582414501805
     },
     {
       "team": "Lithuania",
-      "attack": -0.3245556480563426,
-      "defense": -0.12996714779327678,
-      "overall": -0.4545227958496194,
-      "recalibrated": false
+      "attack": -0.10433650354362686,
+      "defense": 0.1460139195079722,
+      "overall": 0.04167741596434535
     },
     {
-      "team": "Congo",
-      "attack": -0.17639553114874118,
-      "defense": -0.283611585146335,
-      "overall": -0.4600071162950762,
-      "recalibrated": false
+      "team": "Ethiopia",
+      "attack": 0.016233596741192218,
+      "defense": 0.02460574389396082,
+      "overall": 0.04083934063515304
     },
     {
-      "team": "Eswatini",
-      "attack": -0.1888113416580059,
-      "defense": -0.2727476299633909,
-      "overall": -0.4615589716213968,
-      "recalibrated": false
+      "team": "Saudi Arabia",
+      "attack": -0.03511254078881468,
+      "defense": 0.06902957723319499,
+      "overall": 0.03391703644438031
     },
     {
-      "team": "Western Isles",
-      "attack": -0.0659539750904198,
-      "defense": -0.4065792158163184,
-      "overall": -0.4725331909067382,
-      "recalibrated": false
+      "team": "Burundi",
+      "attack": 0.006553976516778398,
+      "defense": 0.023050664942178025,
+      "overall": 0.029604641458956422
     },
     {
-      "team": "India",
-      "attack": -0.45197548154575945,
-      "defense": -0.030484111111436892,
-      "overall": -0.48245959265719635,
-      "recalibrated": false
+      "team": "Malawi",
+      "attack": -0.15317822775365003,
+      "defense": 0.1760304118389286,
+      "overall": 0.02285218408527856
     },
     {
-      "team": "Papua New Guinea",
-      "attack": -0.09331045051645574,
-      "defense": -0.39595375234525765,
-      "overall": -0.4892642028617134,
-      "recalibrated": false
-    },
-    {
-      "team": "Puerto Rico",
-      "attack": -0.1573128880826174,
-      "defense": -0.3364221564759444,
-      "overall": -0.4937350445585618,
-      "recalibrated": false
-    },
-    {
-      "team": "Hong Kong",
-      "attack": -0.2700172091228354,
-      "defense": -0.2239656400132338,
-      "overall": -0.49398284913606916,
-      "recalibrated": false
-    },
-    {
-      "team": "Solomon Islands",
-      "attack": -0.03013772267143075,
-      "defense": -0.5183663144566774,
-      "overall": -0.5485040371281081,
-      "recalibrated": false
-    },
-    {
-      "team": "Vanuatu",
-      "attack": -0.03526676833416507,
-      "defense": -0.5345750007664872,
-      "overall": -0.5698417691006523,
-      "recalibrated": false
+      "team": "Liberia",
+      "attack": -0.010629964740401433,
+      "defense": 0.02334425652462937,
+      "overall": 0.012714291784227935
     },
     {
       "team": "Malta",
-      "attack": -0.35022727827596006,
-      "defense": -0.2513271722076885,
-      "overall": -0.6015544504836485,
-      "recalibrated": false
+      "attack": -0.05568487787224379,
+      "defense": 0.026670657654708135,
+      "overall": -0.029014220217535656
+    },
+    {
+      "team": "New Zealand",
+      "attack": 0.07111368713859417,
+      "defense": -0.10391629218015144,
+      "overall": -0.03280260504155727
+    },
+    {
+      "team": "Thailand",
+      "attack": 0.05604670827705624,
+      "defense": -0.09146118941414233,
+      "overall": -0.03541448113708609
+    },
+    {
+      "team": "Guinea-Bissau",
+      "attack": -0.16737826188858962,
+      "defense": 0.13156912098386217,
+      "overall": -0.03580914090472745
+    },
+    {
+      "team": "Orkney",
+      "attack": -0.03814618813431674,
+      "defense": -0.02371113779726954,
+      "overall": -0.061857325931586285
+    },
+    {
+      "team": "North Korea",
+      "attack": 0.07571506807557472,
+      "defense": -0.1553231636118299,
+      "overall": -0.07960809553625518
+    },
+    {
+      "team": "Vietnam",
+      "attack": -0.04570985864831527,
+      "defense": -0.052977869361130574,
+      "overall": -0.09868772800944584
+    },
+    {
+      "team": "Botswana",
+      "attack": -0.1397225331760853,
+      "defense": 0.04037185992348674,
+      "overall": -0.09935067325259855
     },
     {
       "team": "Moldova",
-      "attack": -0.2703406025323898,
-      "defense": -0.34448383102136954,
-      "overall": -0.6148244335537594,
-      "recalibrated": false
+      "attack": -0.027162472403432,
+      "defense": -0.0749916176967584,
+      "overall": -0.1021540901001904
     },
     {
-      "team": "Philippines",
-      "attack": -0.2981961584805438,
-      "defense": -0.4391981392229307,
-      "overall": -0.7373942977034745,
-      "recalibrated": false
+      "team": "Iraq",
+      "attack": -0.05804731928915255,
+      "defense": -0.057435612828332774,
+      "overall": -0.11548293211748532
     },
     {
-      "team": "Bermuda",
-      "attack": 0.025675656126983144,
-      "defense": -0.7877068721076013,
-      "overall": -0.7620312159806181,
-      "recalibrated": false
+      "team": "Central African Republic",
+      "attack": 0.14416875686021324,
+      "defense": -0.27479698000803165,
+      "overall": -0.1306282231478184
     },
     {
-      "team": "Singapore",
-      "attack": -0.2667111228030089,
-      "defense": -0.5899277077336669,
-      "overall": -0.8566388305366758,
-      "recalibrated": false
+      "team": "Hitra",
+      "attack": 0.423649210457942,
+      "defense": -0.5607686991875717,
+      "overall": -0.13711948872962965
     },
     {
-      "team": "Saint Vincent and the Grenadines",
-      "attack": -0.13106248355384156,
-      "defense": -0.7368302491840905,
-      "overall": -0.867892732737932,
-      "recalibrated": false
+      "team": "Kyrgyzstan",
+      "attack": 0.01929061346786048,
+      "defense": -0.18032893588245416,
+      "overall": -0.16103832241459368
     },
     {
-      "team": "Grenada",
-      "attack": -0.3844096638311014,
-      "defense": -0.6033659634620274,
-      "overall": -0.9877756272931288,
-      "recalibrated": false
+      "team": "Lesotho",
+      "attack": -0.17158145036891373,
+      "defense": -0.006294723121201814,
+      "overall": -0.17787617349011553
     },
     {
-      "team": "South Sudan",
-      "attack": -0.7405990738466031,
-      "defense": -0.2694037824726422,
-      "overall": -1.0100028563192454,
-      "recalibrated": false
+      "team": "Kuwait",
+      "attack": -0.008834030228358788,
+      "defense": -0.17596336135472365,
+      "overall": -0.18479739158308245
     },
     {
-      "team": "Montserrat",
-      "attack": -0.4091621939492739,
-      "defense": -0.626123320144509,
-      "overall": -1.0352855140937829,
-      "recalibrated": false
+      "team": "Tajikistan",
+      "attack": -0.18221966115660443,
+      "defense": -0.013441434857118652,
+      "overall": -0.19566109601372308
     },
     {
-      "team": "Mauritius",
-      "attack": -0.7289673245474738,
-      "defense": -0.31434268873737015,
-      "overall": -1.0433100132848439,
-      "recalibrated": false
+      "team": "Haiti",
+      "attack": -0.025144053325739348,
+      "defense": -0.1977189433391039,
+      "overall": -0.22286299666484324
     },
     {
-      "team": "Chad",
-      "attack": -0.7407322344589298,
-      "defense": -0.32977715226061466,
-      "overall": -1.0705093867195443,
-      "recalibrated": false
+      "team": "Congo",
+      "attack": -0.05293219232319322,
+      "defense": -0.21479562497085056,
+      "overall": -0.26772781729404377
     },
     {
-      "team": "Saint Kitts and Nevis",
-      "attack": -0.3669112498046166,
-      "defense": -0.8351198731083291,
-      "overall": -1.2020311229129457,
-      "recalibrated": false
+      "team": "Indonesia",
+      "attack": -0.02243595767279953,
+      "defense": -0.24687452190156237,
+      "overall": -0.2693104795743619
     },
     {
-      "team": "Belize",
-      "attack": -0.6458724361340737,
-      "defense": -0.5868308504637673,
-      "overall": -1.232703286597841,
-      "recalibrated": false
+      "team": "Eswatini",
+      "attack": -0.06936371469536057,
+      "defense": -0.20331504050658558,
+      "overall": -0.2726787552019462
     },
     {
-      "team": "Saint Martin",
-      "attack": -0.33306060858441633,
-      "defense": -0.9272389990079881,
-      "overall": -1.2602996075924044,
-      "recalibrated": false
+      "team": "Trinidad and Tobago",
+      "attack": -0.04834147835404759,
+      "defense": -0.23223751306018076,
+      "overall": -0.2805789914142284
     },
     {
-      "team": "Afghanistan",
-      "attack": -0.7874621464687378,
-      "defense": -0.4835832662326207,
-      "overall": -1.2710454127013584,
-      "recalibrated": false
+      "team": "El Salvador",
+      "attack": -0.41005123022704953,
+      "defense": 0.12701150355868523,
+      "overall": -0.2830397266683643
     },
     {
-      "team": "Taiwan",
-      "attack": -0.47806309113242673,
-      "defense": -0.8026355242984626,
-      "overall": -1.2806986154308895,
-      "recalibrated": false
+      "team": "Lebanon",
+      "attack": -0.35936902802013887,
+      "defense": 0.05072085233294906,
+      "overall": -0.30864817568718983
     },
     {
-      "team": "Somalia",
-      "attack": -1.0507544812128522,
-      "defense": -0.253794059753763,
-      "overall": -1.304548540966615,
-      "recalibrated": false
+      "team": "Gozo",
+      "attack": -0.4317175465165519,
+      "defense": 0.1167349258828182,
+      "overall": -0.3149826206337337
     },
     {
-      "team": "Djibouti",
-      "attack": -0.5077273381439836,
-      "defense": -0.8021553599935856,
-      "overall": -1.309882698137569,
-      "recalibrated": false
+      "team": "Dominican Republic",
+      "attack": -0.0672709138733106,
+      "defense": -0.2735442026361306,
+      "overall": -0.3408151165094412
     },
     {
-      "team": "São Tomé and Príncipe",
-      "attack": -0.5941779461247663,
-      "defense": -0.7662657852119235,
-      "overall": -1.3604437313366897,
-      "recalibrated": false
+      "team": "Nicaragua",
+      "attack": -0.24627538076402936,
+      "defense": -0.10428641790027954,
+      "overall": -0.3505617986643089
     },
     {
-      "team": "Saint Lucia",
-      "attack": -0.5775146048103176,
-      "defense": -0.7990091431546524,
-      "overall": -1.3765237479649701,
-      "recalibrated": false
+      "team": "Qatar",
+      "attack": -0.09541097045367705,
+      "defense": -0.2728662421647648,
+      "overall": -0.3682772126184418
     },
     {
-      "team": "Aruba",
-      "attack": -0.4584753611839701,
-      "defense": -0.9227952755956115,
-      "overall": -1.3812706367795815,
-      "recalibrated": false
+      "team": "Martinique",
+      "attack": -0.1320326327143671,
+      "defense": -0.28155437054624444,
+      "overall": -0.41358700326061154
+    },
+    {
+      "team": "Malaysia",
+      "attack": -0.1149700380222706,
+      "defense": -0.3096222724723275,
+      "overall": -0.4245923104945981
+    },
+    {
+      "team": "Cura\u00e7ao",
+      "attack": -0.1895403309464806,
+      "defense": -0.25924410894680944,
+      "overall": -0.44878443989329003
+    },
+    {
+      "team": "Guadeloupe",
+      "attack": -0.2489307644241596,
+      "defense": -0.245517163538262,
+      "overall": -0.4944479279624216
     },
     {
       "team": "Andorra",
-      "attack": -1.2287649315411717,
-      "defense": -0.16679657027429928,
-      "overall": -1.395561501815471,
-      "recalibrated": false
+      "attack": -0.62126359101911,
+      "defense": 0.07994848704148498,
+      "overall": -0.5413151039776251
     },
     {
-      "team": "Barbados",
-      "attack": -0.474637435158081,
-      "defense": -0.9418007830199286,
-      "overall": -1.4164382181780097,
-      "recalibrated": false
+      "team": "Western Isles",
+      "attack": -0.0378521427469589,
+      "defense": -0.5383464393060565,
+      "overall": -0.5761985820530154
     },
     {
-      "team": "Myanmar",
-      "attack": -0.6589475501926497,
-      "defense": -0.8810586281010052,
-      "overall": -1.540006178293655,
-      "recalibrated": false
+      "team": "New Caledonia",
+      "attack": -0.24825480226362232,
+      "defense": -0.367362133674236,
+      "overall": -0.6156169359378583
     },
     {
-      "team": "Nepal",
-      "attack": -1.013391418479986,
-      "defense": -0.5947160786931364,
-      "overall": -1.6081074971731222,
-      "recalibrated": false
+      "team": "Turkmenistan",
+      "attack": -0.30438971940120163,
+      "defense": -0.4295497259646421,
+      "overall": -0.7339394453658437
     },
     {
-      "team": "Bangladesh",
-      "attack": -0.984757263091103,
-      "defense": -0.6516909536905627,
-      "overall": -1.6364482167816656,
-      "recalibrated": false
+      "team": "Guyana",
+      "attack": -0.12930652666853246,
+      "defense": -0.6244072452127072,
+      "overall": -0.7537137718812397
     },
     {
-      "team": "Dominica",
-      "attack": -0.8872174747736099,
-      "defense": -0.7784020602145361,
-      "overall": -1.665619534988146,
-      "recalibrated": false
+      "team": "Mauritius",
+      "attack": -0.5267040545743359,
+      "defense": -0.2299741682373532,
+      "overall": -0.7566782228116891
     },
     {
-      "team": "Cambodia",
-      "attack": -0.7151488285267416,
-      "defense": -0.9696773606311473,
-      "overall": -1.6848261891578888,
-      "recalibrated": false
+      "team": "South Sudan",
+      "attack": -0.5458591820116648,
+      "defense": -0.22474836098747838,
+      "overall": -0.7706075429991432
     },
     {
-      "team": "Frøya",
-      "attack": -0.6347886801757069,
-      "defense": -1.0618095620644075,
-      "overall": -1.6965982422401145,
-      "recalibrated": false
+      "team": "Yemen",
+      "attack": -0.20165254612547495,
+      "defense": -0.5864628100020973,
+      "overall": -0.7881153561275722
     },
     {
-      "team": "Sint Maarten",
-      "attack": -0.4656505143909812,
-      "defense": -1.247091913290657,
-      "overall": -1.7127424276816383,
-      "recalibrated": false
+      "team": "Cuba",
+      "attack": -0.4015083541667247,
+      "defense": -0.4164693937037725,
+      "overall": -0.8179777478704973
     },
     {
-      "team": "Antigua and Barbuda",
-      "attack": -0.9390969701305953,
-      "defense": -0.8554778935141341,
-      "overall": -1.7945748636447294,
-      "recalibrated": false
+      "team": "French Guiana",
+      "attack": -0.3482769646791333,
+      "defense": -0.4714723112076719,
+      "overall": -0.8197492758868052
     },
     {
-      "team": "Maldives",
-      "attack": -0.830825023677834,
-      "defense": -0.993202820225317,
-      "overall": -1.824027843903151,
-      "recalibrated": false
+      "team": "Chad",
+      "attack": -0.571331669118022,
+      "defense": -0.2796242969650057,
+      "overall": -0.8509559660830277
     },
     {
-      "team": "Samoa",
-      "attack": -0.8932105677860116,
-      "defense": -0.9430592923874022,
-      "overall": -1.8362698601734138,
-      "recalibrated": false
-    },
-    {
-      "team": "Bonaire",
-      "attack": -0.8681487804208934,
-      "defense": -1.0613392401785173,
-      "overall": -1.9294880205994107,
-      "recalibrated": false
+      "team": "Hong Kong",
+      "attack": -0.4771856434267003,
+      "defense": -0.39657806976181703,
+      "overall": -0.8737637131885173
     },
     {
       "team": "Gibraltar",
-      "attack": -1.2789449212648858,
-      "defense": -0.6581785234430924,
-      "overall": -1.9371234447079781,
-      "recalibrated": false
+      "attack": -0.5115847757764127,
+      "defense": -0.4095005136313659,
+      "overall": -0.9210852894077786
     },
     {
-      "team": "Tuvalu",
-      "attack": -0.3074236257304269,
-      "defense": -1.650963244678578,
-      "overall": -1.9583868704090048,
-      "recalibrated": false
+      "team": "India",
+      "attack": -0.6976268095332316,
+      "defense": -0.24861276700219093,
+      "overall": -0.9462395765354226
     },
     {
-      "team": "Sri Lanka",
-      "attack": -1.2619926951874505,
-      "defense": -0.7219420387380185,
-      "overall": -1.983934733925469,
-      "recalibrated": false
+      "team": "Puerto Rico",
+      "attack": -0.3725341584083122,
+      "defense": -0.5757137042468838,
+      "overall": -0.948247862655196
     },
     {
-      "team": "Laos",
-      "attack": -0.9212270692679347,
-      "defense": -1.1156190774350736,
-      "overall": -2.0368461467030086,
-      "recalibrated": false
+      "team": "Philippines",
+      "attack": -0.35398578826543897,
+      "defense": -0.6030810889418009,
+      "overall": -0.9570668772072399
     },
     {
-      "team": "Mongolia",
-      "attack": -1.2455063552681898,
-      "defense": -0.8637862891401638,
-      "overall": -2.1092926444083533,
-      "recalibrated": false
+      "team": "Tahiti",
+      "attack": -0.5414322928141325,
+      "defense": -0.425450840163933,
+      "overall": -0.9668831329780655
     },
     {
-      "team": "Guam",
-      "attack": -1.0422591111490913,
-      "defense": -1.213528279542927,
-      "overall": -2.255787390692018,
-      "recalibrated": false
+      "team": "Bermuda",
+      "attack": -0.1177889219700673,
+      "defense": -0.9400528143061779,
+      "overall": -1.0578417362762451
     },
     {
-      "team": "Cook Islands",
-      "attack": -1.0524942091804848,
-      "defense": -1.224290972145218,
-      "overall": -2.2767851813257027,
-      "recalibrated": false
+      "team": "Djibouti",
+      "attack": -0.3731161920999322,
+      "defense": -0.747446711196054,
+      "overall": -1.120562903295986
     },
     {
-      "team": "British Virgin Islands",
-      "attack": -1.1469112708831444,
-      "defense": -1.1346027809630983,
-      "overall": -2.2815140518462425,
-      "recalibrated": false
+      "team": "Fiji",
+      "attack": -0.4138484840786732,
+      "defense": -0.7726010663471308,
+      "overall": -1.186449550425804
     },
     {
-      "team": "Cayman Islands",
-      "attack": -1.2750949403614031,
-      "defense": -1.01447048303382,
-      "overall": -2.2895654233952234,
-      "recalibrated": false
+      "team": "Singapore",
+      "attack": -0.44011516153459246,
+      "defense": -0.7712366952051722,
+      "overall": -1.2113518567397648
     },
     {
-      "team": "Tonga",
-      "attack": -0.7348861406237326,
-      "defense": -1.6126306266127424,
-      "overall": -2.347516767236475,
-      "recalibrated": false
+      "team": "S\u00e3o Tom\u00e9 and Pr\u00edncipe",
+      "attack": -0.4711880718572984,
+      "defense": -0.7568354737703259,
+      "overall": -1.2280235456276243
     },
     {
-      "team": "Northern Mariana Islands",
-      "attack": -0.7246665188663249,
-      "defense": -1.6849004096627225,
-      "overall": -2.4095669285290473,
-      "recalibrated": false
+      "team": "Somalia",
+      "attack": -1.0507075195224145,
+      "defense": -0.22768247853103502,
+      "overall": -1.2783899980534494
     },
     {
-      "team": "Timor-Leste",
-      "attack": -1.1857699867704756,
-      "defense": -1.3110274014040284,
-      "overall": -2.496797388174504,
-      "recalibrated": false
+      "team": "Papua New Guinea",
+      "attack": -0.4695627011389014,
+      "defense": -0.8484000214473462,
+      "overall": -1.3179627225862476
+    },
+    {
+      "team": "Solomon Islands",
+      "attack": -0.4655240371707448,
+      "defense": -0.8619075531717204,
+      "overall": -1.3274315903424652
+    },
+    {
+      "team": "Saint Vincent and the Grenadines",
+      "attack": -0.3869453163105788,
+      "defense": -0.9679733231334877,
+      "overall": -1.3549186394440667
+    },
+    {
+      "team": "Vanuatu",
+      "attack": -0.4469730019877187,
+      "defense": -0.9276828744071545,
+      "overall": -1.3746558763948733
+    },
+    {
+      "team": "Grenada",
+      "attack": -0.589201398093772,
+      "defense": -0.7894096362894248,
+      "overall": -1.378611034383197
+    },
+    {
+      "team": "Montserrat",
+      "attack": -0.6561719881332019,
+      "defense": -0.8585513689032693,
+      "overall": -1.514723357036471
+    },
+    {
+      "team": "Belize",
+      "attack": -0.8312359593225245,
+      "defense": -0.7663626539961428,
+      "overall": -1.5975986133186673
+    },
+    {
+      "team": "Taiwan",
+      "attack": -0.5755454215820864,
+      "defense": -1.0239226270236153,
+      "overall": -1.5994680486057016
+    },
+    {
+      "team": "Saint Kitts and Nevis",
+      "attack": -0.6159510750826787,
+      "defense": -1.011030541937773,
+      "overall": -1.6269816170204516
+    },
+    {
+      "team": "Saint Lucia",
+      "attack": -0.7121756351259625,
+      "defense": -0.9411372097534997,
+      "overall": -1.653312844879462
+    },
+    {
+      "team": "Aruba",
+      "attack": -0.6286134476832457,
+      "defense": -1.0622668369448933,
+      "overall": -1.690880284628139
+    },
+    {
+      "team": "Saint Martin",
+      "attack": -0.5058547347738885,
+      "defense": -1.1856683814656588,
+      "overall": -1.6915231162395474
     },
     {
       "team": "Liechtenstein",
-      "attack": -1.8369388387442789,
-      "defense": -0.6744189575122691,
-      "overall": -2.511357796256548,
-      "recalibrated": false
-    },
-    {
-      "team": "Seychelles",
-      "attack": -1.3977847361629563,
-      "defense": -1.1447167794218611,
-      "overall": -2.542501515584817,
-      "recalibrated": false
-    },
-    {
-      "team": "Pakistan",
-      "attack": -1.7046046536310417,
-      "defense": -0.8426486281618513,
-      "overall": -2.547253281792893,
-      "recalibrated": false
-    },
-    {
-      "team": "Bahamas",
-      "attack": -1.112310279102189,
-      "defense": -1.4861489709769957,
-      "overall": -2.598459250079185,
-      "recalibrated": false
-    },
-    {
-      "team": "Brunei",
-      "attack": -1.3559218262135382,
-      "defense": -1.3552287590404346,
-      "overall": -2.711150585253973,
-      "recalibrated": false
+      "attack": -1.3199866341645934,
+      "defense": -0.4087343136801499,
+      "overall": -1.7287209478447432
     },
     {
       "team": "San Marino",
-      "attack": -1.7702709298251176,
-      "defense": -0.9458870697054607,
-      "overall": -2.7161579995305782,
-      "recalibrated": false
+      "attack": -1.1266346175621127,
+      "defense": -0.631904537198353,
+      "overall": -1.7585391547604656
+    },
+    {
+      "team": "Afghanistan",
+      "attack": -1.0509892421340872,
+      "defense": -0.722557058821485,
+      "overall": -1.773546300955572
+    },
+    {
+      "team": "Myanmar",
+      "attack": -0.7433651767074441,
+      "defense": -1.0619352718112944,
+      "overall": -1.8053004485187385
+    },
+    {
+      "team": "Cambodia",
+      "attack": -0.6999453547299542,
+      "defense": -1.1195399700624329,
+      "overall": -1.819485324792387
+    },
+    {
+      "team": "Barbados",
+      "attack": -0.6897488504872125,
+      "defense": -1.1418234812446233,
+      "overall": -1.8315723317318358
+    },
+    {
+      "team": "Nepal",
+      "attack": -1.0842057883107987,
+      "defense": -0.7635092606061176,
+      "overall": -1.8477150489169163
+    },
+    {
+      "team": "Fr\u00f8ya",
+      "attack": -0.8467721370851222,
+      "defense": -1.0107170078923553,
+      "overall": -1.8574891449774775
+    },
+    {
+      "team": "Bangladesh",
+      "attack": -1.0409378519464707,
+      "defense": -0.8719493507509669,
+      "overall": -1.9128872026974375
+    },
+    {
+      "team": "Dominica",
+      "attack": -1.0307530174480417,
+      "defense": -0.9810193767469387,
+      "overall": -2.0117723941949803
+    },
+    {
+      "team": "Sint Maarten",
+      "attack": -0.6700537458276387,
+      "defense": -1.3611071445375336,
+      "overall": -2.031160890365172
+    },
+    {
+      "team": "Antigua and Barbuda",
+      "attack": -1.0995432897037782,
+      "defense": -1.0676967437811211,
+      "overall": -2.1672400334848994
+    },
+    {
+      "team": "Maldives",
+      "attack": -1.0673890982262502,
+      "defense": -1.129113731556477,
+      "overall": -2.196502829782727
+    },
+    {
+      "team": "Sri Lanka",
+      "attack": -1.3364783656433956,
+      "defense": -0.8933352101376021,
+      "overall": -2.2298135757809976
+    },
+    {
+      "team": "Pakistan",
+      "attack": -1.294118900381683,
+      "defense": -0.9537888135523006,
+      "overall": -2.2479077139339836
+    },
+    {
+      "team": "Laos",
+      "attack": -1.0597334379171723,
+      "defense": -1.2502054871018204,
+      "overall": -2.309938925018993
+    },
+    {
+      "team": "Bonaire",
+      "attack": -1.11297466145047,
+      "defense": -1.2882946323999918,
+      "overall": -2.401269293850462
+    },
+    {
+      "team": "Mongolia",
+      "attack": -1.4836738071048983,
+      "defense": -0.9626763810822105,
+      "overall": -2.446350188187109
+    },
+    {
+      "team": "Seychelles",
+      "attack": -1.4718323125485335,
+      "defense": -1.0944775051598765,
+      "overall": -2.56630981770841
+    },
+    {
+      "team": "British Virgin Islands",
+      "attack": -1.2872652260445652,
+      "defense": -1.32435916827305,
+      "overall": -2.611624394317615
+    },
+    {
+      "team": "Cayman Islands",
+      "attack": -1.377460527285919,
+      "defense": -1.234484709287518,
+      "overall": -2.611945236573437
+    },
+    {
+      "team": "Samoa",
+      "attack": -1.3609670101596025,
+      "defense": -1.3418390619565341,
+      "overall": -2.702806072116137
+    },
+    {
+      "team": "Timor-Leste",
+      "attack": -1.355141697379984,
+      "defense": -1.4761115856990659,
+      "overall": -2.8312532830790498
+    },
+    {
+      "team": "Guam",
+      "attack": -1.402872614306588,
+      "defense": -1.4999688277839378,
+      "overall": -2.9028414420905255
+    },
+    {
+      "team": "Bahamas",
+      "attack": -1.2964096428331948,
+      "defense": -1.7241057992746336,
+      "overall": -3.020515442107828
+    },
+    {
+      "team": "Brunei",
+      "attack": -1.5541846661807537,
+      "defense": -1.5499408050965238,
+      "overall": -3.1041254712772774
     },
     {
       "team": "Bhutan",
-      "attack": -1.3654724150124724,
-      "defense": -1.4616010575872533,
-      "overall": -2.827073472599726,
-      "recalibrated": false
+      "attack": -1.7592154660949928,
+      "defense": -1.5194159300209664,
+      "overall": -3.2786313961159594
+    },
+    {
+      "team": "Cook Islands",
+      "attack": -1.5880837034962365,
+      "defense": -1.744397646812576,
+      "overall": -3.3324813503088127
+    },
+    {
+      "team": "Tonga",
+      "attack": -1.1766687386340133,
+      "defense": -2.1765080883557086,
+      "overall": -3.353176826989722
     },
     {
       "team": "United States Virgin Islands",
-      "attack": -1.5204135903526599,
-      "defense": -1.4892115727080448,
-      "overall": -3.0096251630607047,
-      "recalibrated": false
+      "attack": -1.771203449772882,
+      "defense": -1.616419773401897,
+      "overall": -3.3876232231747787
+    },
+    {
+      "team": "Northern Mariana Islands",
+      "attack": -1.3045478345509194,
+      "defense": -2.2528487397947026,
+      "overall": -3.557396574345622
     },
     {
       "team": "Turks and Caicos Islands",
-      "attack": -1.4289831444315328,
-      "defense": -1.7981558137141418,
-      "overall": -3.227138958145675,
-      "recalibrated": false
+      "attack": -1.6626520464456533,
+      "defense": -2.0069457815581475,
+      "overall": -3.669597828003801
     },
     {
       "team": "Macau",
-      "attack": -1.6864901609727392,
-      "defense": -1.6827775268795997,
-      "overall": -3.369267687852339,
-      "recalibrated": false
-    },
-    {
-      "team": "American Samoa",
-      "attack": -1.1975809085436953,
-      "defense": -2.2466024392011312,
-      "overall": -3.4441833477448265,
-      "recalibrated": false
+      "attack": -2.1621703470932374,
+      "defense": -1.7619051302943174,
+      "overall": -3.9240754773875546
     },
     {
       "team": "Anguilla",
-      "attack": -1.9144095935416878,
-      "defense": -1.5697757858255887,
-      "overall": -3.4841853793672763,
-      "recalibrated": false
+      "attack": -2.2070292275712053,
+      "defense": -1.7732371757813015,
+      "overall": -3.980266403352507
+    },
+    {
+      "team": "American Samoa",
+      "attack": -1.7814071130634328,
+      "defense": -2.707031848458393,
+      "overall": -4.488438961521826
     }
   ]
 }
