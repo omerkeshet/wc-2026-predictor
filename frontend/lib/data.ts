@@ -18,3 +18,4 @@ export const loadMatches = () => readJson<MatchesPayload>("matches.json");
 export const loadRatings = () => readJson<RatingsPayload>("ratings.json");
 export const loadTournament = () => readJson<TournamentPayload>("tournament.json");
 export const loadMeta = () => readJson<Meta>("meta.json");
+export const loadR32 = () => readJson<MatchesPayload>("r32.json");

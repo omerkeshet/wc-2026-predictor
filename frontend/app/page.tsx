@@ -107,6 +107,12 @@ export default async function HomePage() {
           >
             See the full bracket →
           </Link>
+          <Link
+            href="/round-of-32"
+            className="inline-block border border-accent/40 bg-accent/5 px-6 py-3 font-mono text-xs uppercase tracking-wider text-accent hover:bg-accent hover:text-ink transition-colors"
+          >
+            Round of 32 →
+        </Link>
         </div>
       </section>
 
